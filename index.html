@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miquéias Veloso | Web Developer</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-indigo-600 text-white py-4">
+    <div class="container mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <div class="h-12 w-12 bg-gray-300 rounded-full mr-4">
+          <img src="./img/IMG-20230817-WA0151(1).jpeg" alt="Miquéias" class="h-full w-full object-cover rounded-full">
+        </div>
+        <h1 class="text-2xl font-bold">Miquéias Veloso</h1>
+      </div>
+      <p class="text-sm">Web Developer | Learning Full Stack Javascript</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto mt-8 px-4">
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold">About Me</h2>
+      <p>Hello, I'm Miquéias Veloso, a self-taught web developer currently learning Full Stack Javascript (ReactJS) on The Odin Project website. I'm passionate about programming and creating user-friendly web applications. Check out some of my projects below!</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold">Projects</h2>
+      <!-- Project Cards will be added dynamically via JavaScript -->
+      <div id="projects" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+  </main>
+
+  <footer class="bg-indigo-600 text-white py-4 mt-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2023 Miquéias Veloso | Web Developer</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
