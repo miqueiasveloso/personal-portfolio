@@ -1,4 +1,4 @@
-// Sample data for projects (you can replace this with Miquéias Veloso's real projects)
+// data for projects 
 const projectsData = [
     {
       title: 'Shopping Store',
