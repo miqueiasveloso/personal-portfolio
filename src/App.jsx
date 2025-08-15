@@ -39,8 +39,8 @@ const projects = [
   {
     title: "🐾 Cat Coffee Shop Restaurant Page",
     description: "A cozy, cat-themed coffee shop restaurant page. Features a playful design, menu, and interactive elements for a delightful user experience.",
-    link: "https://github.com/miqueiasveloso/restaurant-page",
-    live: "https://miqueiasveloso.github.io/restaurant-page/"
+    link: "https://github.com/miqueiasveloso/coffee-shop",
+    live: "https://miqueiasveloso.github.io/coffee-shop/"
   },
 ];
 
